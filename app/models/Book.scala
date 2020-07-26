@@ -1,3 +1,3 @@
 package models
 
-case class Book(id: Option[Long], title: String, author: String, pages: Int)
+case class Book(id: Option[Long] = None, title: String, author: String, pages: Int)
