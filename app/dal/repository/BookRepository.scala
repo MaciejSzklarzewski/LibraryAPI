@@ -1,8 +1,8 @@
 package dal.repository
 
+import bussiness.models.Book
 import dal.config.{Db, DbConfiguration}
 import dal.tables.BooksTable
-import models.Book
 import slick.dbio.DBIOAction
 import slick.jdbc.meta.MTable
 

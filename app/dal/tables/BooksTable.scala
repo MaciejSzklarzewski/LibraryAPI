@@ -1,7 +1,7 @@
 package dal.tables
 
+import bussiness.models.Book
 import dal.config.Db
-import models.Book
 
 trait BooksTable { this: Db =>
   import config.profile.api._

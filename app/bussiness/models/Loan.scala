@@ -1,4 +1,4 @@
-package models
+package bussiness.models
 
 import java.util.Date
 
